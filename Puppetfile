@@ -36,7 +36,7 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
- github "virtalbox", "1.0.0"
+ github "virtualbox", "1.0.0"
  github "vagrant", "1.0.0"
  github "postgresql", "1.0.0"
  github "python", "1.0.0"
