@@ -36,3 +36,15 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+ github "virtalbox"
+ github "vagrant"
+ github "postgresql"
+ github "python"
+ github "wget"
+ github "vlc"
+ github "sublime_text_2"
+ github "skype"
+ github "macvim"
+ github "iterm2"
+ github "gcc"
+ github "colloquy"
