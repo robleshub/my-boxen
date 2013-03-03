@@ -69,7 +69,6 @@ node default {
 
   # default ruby versions
   include ruby::1-8-7
-  include ruby::1-9-2
   include ruby::1-9-3
 
   # common, useful packages
@@ -85,4 +84,17 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+  include virtalbox
+  include vagrant
+  include postgresql
+  include python
+  include wget
+  include vlc
+  include sublime_text_2
+  include skype
+  include macvim
+  include iterm2::stable
+  include gcc
+  include colloquy
+   
 }
