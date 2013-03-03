@@ -84,7 +84,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
-  include virtalbox
+  include virtualbox
   include vagrant
   include postgresql
   include python
