@@ -109,6 +109,11 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -144,4 +149,5 @@ DEPENDENCIES
   virtualbox (= 1.0.0)
   vlc (= 1.0.0)
   wget (= 1.0.0)
+  xquartz (= 1.0.0)
 
