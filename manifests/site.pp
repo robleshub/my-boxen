@@ -52,6 +52,16 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
+  
+  
+  git::config::global { 'user.email':
+      value => 'arrong@gmail.com'
+  }
+
+  git::config::global { 'user.name':
+      value => 'Arron Green'
+  }
+  
   include hub
   include nginx
   include nvm
@@ -63,8 +73,8 @@ node default {
   }
 
   # node versions
-  include nodejs::0-4
-  include nodejs::0-6
+  #include nodejs::0-4
+  #include nodejs::0-6
   include nodejs::0-8
 
   # default ruby versions
