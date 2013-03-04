@@ -86,7 +86,7 @@ node default {
   }
   include virtualbox
   include vagrant
-  include postgresql
+  #include postgresql
   include python
   include wget
   include vlc
