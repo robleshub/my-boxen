@@ -86,12 +86,10 @@ node default {
   }
   include virtualbox
   include vagrant
-  #include postgresql
   include python
   include wget
   include vlc
   include sublime_text_2
-  include skype
   include macvim
   include iterm2::stable
   include gcc
