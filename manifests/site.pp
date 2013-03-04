@@ -86,7 +86,7 @@ node default {
   }
   include virtualbox
   include vagrant
-  include pkgconfig
+  #include pkgconfig
   include python
   include wget
   include vlc
