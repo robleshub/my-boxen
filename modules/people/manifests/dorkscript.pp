@@ -10,7 +10,7 @@ class people::dorkscript{
   include gcc
   include colloquy
   include python
-  include chrome::stable
+  include chrome
   include firefox
   include dropbox
   #include pkgconfig
