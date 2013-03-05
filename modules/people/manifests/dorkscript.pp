@@ -2,7 +2,6 @@ class people::dorkscript{
   #applications
   include virtualbox
   include vagrant
-  #include wget
   include vlc
   include sublime_text_2
   include macvim
@@ -13,15 +12,13 @@ class people::dorkscript{
   include chrome
   include firefox
   include dropbox
-  #include pkgconfig
-  
   #projects
 
   #Sane Defaults
   Boxen::Osx_defaults {
     user => $::luser,
   }
-  
+
   $env = {
     directories => {
       home      => '/Users/agreen',
@@ -31,7 +28,6 @@ class people::dorkscript{
       'gitconfig',
       'janus/solarized',
       'janus/jellybeans',
-      'janus/vim-rails',
       'vimrc.after',
     ],
     packages => {
