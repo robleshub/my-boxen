@@ -2,7 +2,7 @@ class people::dorkscript{
   #applications
   include virtualbox
   include vagrant
-  include wget
+  #include wget
   include vlc
   include sublime_text_2
   include macvim
