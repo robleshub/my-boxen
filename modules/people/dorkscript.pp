@@ -1,4 +1,4 @@
-class people::agreen{
+class people::dorkscript{
   #applications
   include virtualbox
   include vagrant
