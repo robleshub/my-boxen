@@ -53,15 +53,6 @@ node default {
   include dnsmasq
   include git
   
-  
-  git::config::global { 'user.email':
-      value => 'arrong@gmail.com'
-  }
-
-  git::config::global { 'user.name':
-      value => 'Arron Green'
-  }
-  
   include hub
   include nginx
   include nvm
@@ -95,18 +86,4 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
-  include virtualbox
-  include vagrant
-  include wget
-  include vlc
-  include sublime_text_2
-  include macvim
-  include iterm2::stable
-  include gcc
-  include colloquy
-  include python
-  include chrome
-  include firefox
-  include dropbox
-  #include pkgconfig
 }
