@@ -119,7 +119,7 @@ class people::dorkscript{
   }
 
   #This should be a shell script
-  -> people::agreen::dotfile::link { $env['dotfiles']:
+  -> people::dorkscript::dotfile::link { $env['dotfiles']:
     source_dir => $env['directories']['dotfiles'],
     dest_dir   => $env['directories']['home'],
   }
