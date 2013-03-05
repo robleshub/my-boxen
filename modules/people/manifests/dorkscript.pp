@@ -73,8 +73,7 @@ class people::dorkscript{
   boxen::osx_defaults { "Disable 'natural scrolling'":
     key    => 'com.apple.swipescrolldirection',
     domain => 'NSGlobalDomain',
-    value  => 'false',
-    type   => 'bool',
+    value  => '0',
   }
 
   boxen::osx_defaults { 'Disable the "Are you sure you want to open this application?" dialog':
