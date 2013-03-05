@@ -105,5 +105,8 @@ node default {
   include gcc
   include colloquy
   include python
+  include chrome
+  include firefox
+  include dropbox
   #include pkgconfig
 }
