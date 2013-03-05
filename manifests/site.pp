@@ -97,8 +97,6 @@ node default {
   }
   include virtualbox
   include vagrant
-  #include pkgconfig
-  include python
   include wget
   include vlc
   include sublime_text_2
@@ -106,5 +104,6 @@ node default {
   include iterm2::stable
   include gcc
   include colloquy
-   
+  include python
+  #include pkgconfig
 }
