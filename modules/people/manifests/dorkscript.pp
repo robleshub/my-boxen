@@ -69,11 +69,14 @@ class people::dorkscript{
     domain => 'com.apple.dashboard',
     value  => 'true',
   }
+
   boxen::osx_defaults { "Disable 'natural scrolling'":
     key    => 'com.apple.swipescrolldirection',
     domain => 'NSGlobalDomain',
-    value  => 'true',
+    value  => 'false',
+    type   => 'bool',
   }
+
   boxen::osx_defaults { 'Disable the "Are you sure you want to open this application?" dialog':
     key    => 'LSQuarantine',
     domain => 'com.apple.LaunchServices',
