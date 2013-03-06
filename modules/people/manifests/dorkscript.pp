@@ -21,12 +21,17 @@ class people::dorkscript{
   Boxen::Osx_defaults {
     user => $::luser,
   }
-
+  
   $env = {
+    apps_dir => '/Applications',
     directories => {
       home      => '/Users/agreen',
       dotfiles  => '/Users/agreen/.dotfiles'
     },
+    docked => [
+      'Google\ Chrome.app',
+      'iTerm.app',
+    ],
     dotfiles => [
       'gitconfig',
       #'janus/solarized',
@@ -126,6 +131,11 @@ class people::dorkscript{
     dest_dir   => $env['directories']['home'],
   }
 
+  #add each application to dock
+  -> people::dorkscript::add_to_dock { $env['docked']:
+    app_dir => $env['apps_dir'],
+  }
+
   #Install Janus
   repository { 'janus':
     source => 'carlhuda/janus',
@@ -138,6 +148,13 @@ class people::dorkscript{
     environment => [
       "HOME=${env['directories']['home']}",
     ],
+  }
+  
+  define add_to_dock($app_dir) {
+    exec { "adding ${name} to dock":
+      command     => "additemtodock ${app_dir}/${name}",
+      refreshonly => true,
+    }
   }
 
   define dotfile::link($source_dir, $dest_dir){
