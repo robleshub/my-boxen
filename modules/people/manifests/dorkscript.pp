@@ -38,11 +38,6 @@ class people::dorkscript{
     }
   }
 
-  #not sure if this is needed but its not creating without it
-  file { $env['directories']['dotfiles']:
-    ensure => 'directory',
-  }
-
   # Install Brew Applications
   package { $env['packages']['brew']:
     provider => 'homebrew',
@@ -78,7 +73,8 @@ class people::dorkscript{
   boxen::osx_defaults { "Disable 'natural scrolling'":
     key    => 'com.apple.swipescrolldirection',
     domain => 'NSGlobalDomain',
-    value  => '0',
+    value  => 'false',
+    type   => 'bool',
   }
 
   boxen::osx_defaults { 'Disable the "Are you sure you want to open this application?" dialog':
