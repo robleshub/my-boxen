@@ -12,6 +12,8 @@ class people::dorkscript{
   include chrome
   include firefox
   include dropbox
+  include java
+  include alfred
   #projects
 
   #Sane Defaults
