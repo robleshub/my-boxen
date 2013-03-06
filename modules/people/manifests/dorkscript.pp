@@ -8,7 +8,7 @@ class people::dorkscript{
   include iterm2::stable
   include gcc
   include colloquy
-  include python
+  #include python
   include chrome
   include firefox
   include dropbox
