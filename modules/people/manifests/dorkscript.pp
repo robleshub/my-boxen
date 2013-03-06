@@ -117,7 +117,7 @@ class people::dorkscript{
 
   # Dotfile Setup
   repository { 'dorkscript-dotfiles':
-    source => 'dorkscript/dotfiles',
+    source => 'DorkScript/dotfiles',
     path   => "${env['directories']['dotfiles']}",
   }
 
