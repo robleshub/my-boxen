@@ -56,7 +56,6 @@ node default {
   include hub
   include nginx
   include nvm
-  include ruby
 
   # fail if FDE is not enabled
   #disabling FDE
@@ -70,8 +69,10 @@ node default {
   include nodejs::0-8
 
   # default ruby versions
-  include ruby::1-8-7
-  include ruby::1-9-3
+  include ruby::1_8_7
+  include ruby::1_9_2
+  include ruby::1_9_3
+  include ruby::2_0_0
 
   # common, useful packages
   package {
