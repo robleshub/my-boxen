@@ -14,6 +14,7 @@ class people::dorkscript{
   include dropbox
   include java
   include alfred
+  include additemtodock
   #projects
 
   #Sane Defaults
