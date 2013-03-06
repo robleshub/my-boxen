@@ -74,6 +74,7 @@ class people::dorkscript{
     key    => 'com.apple.swipescrolldirection',
     domain => 'NSGlobalDomain',
     value  => 'false',
+    type   => 'bool',
   }
 
   boxen::osx_defaults { 'Disable the "Are you sure you want to open this application?" dialog':
