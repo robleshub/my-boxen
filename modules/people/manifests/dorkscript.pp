@@ -26,8 +26,8 @@ class people::dorkscript{
     },
     dotfiles => [
       'gitconfig',
-      'janus/solarized',
-      'janus/jellybeans',
+      #'janus/solarized',
+      #'janus/jellybeans',
       'vimrc.after',
     ],
     packages => {
@@ -36,6 +36,11 @@ class people::dorkscript{
         'tmux'
       ]
     }
+  }
+
+  #not sure if this is needed but its not creating without it
+  file { $env['directories']['dotfiles']:
+    ensure => 'directory',
   }
 
   # Install Brew Applications
