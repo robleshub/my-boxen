@@ -33,7 +33,7 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "xquartz", "1.0.0"
+github "xquartz", "1.0.1", :repo => "DorkScript/puppet-xquartz"
 github "virtualbox", "1.0.1"
 github "vagrant", "1.0.0"
 github "wget", "1.0.0"
@@ -51,3 +51,4 @@ github "dropbox", "1.0.0"
 github "java", "1.0.6"
 github "alfred", "1.0.1"
 github "additemtodock", "1.0.0", :repo => "DorkScript/puppet-additemtodock"
+githib "adium", "1.0.0", :repo => "DorkScript/puppet-adium"
