@@ -14,6 +14,7 @@ class people::dorkscript{
   include dropbox
   include java
   include alfred
+  include adium
   include additemtodock
   #projects
 
@@ -31,6 +32,10 @@ class people::dorkscript{
     docked => [
       'Google\ Chrome.app',
       'iTerm.app',
+      'Sublime\ Text\ 2.app',
+      'Colloquy.app',
+      'Firefox.app',
+      'Adium.app',
     ],
     dotfiles => [
       'gitconfig',
