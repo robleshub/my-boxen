@@ -132,7 +132,7 @@ class people::dorkscript{
   }
 
   #add each application to dock
-  -> people::dorkscript::add_to_dock { $env['docked']:
+  ~> people::dorkscript::add_to_dock { $env['docked']:
     app_dir => $env['apps_dir'],
   }
 
