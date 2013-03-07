@@ -17,6 +17,8 @@ class people::dorkscript{
   include adium
   include additemtodock
   include xquartz
+  include lastpass
+  include diffmerge
   #projects
 
   #Sane Defaults
