@@ -52,6 +52,6 @@ github "java", "1.0.6"
 github "alfred", "1.0.1"
 github "additemtodock", "1.0.0", :repo => "DorkScript/puppet-additemtodock"
 github "adium", "1.0.0", :repo => "DorkScript/puppet-adium"
-github "lastpass", "1.0.0", :repo => "DorkScript/puppet-lastpass"
+github "lastpass", "0.0.2", :repo => "DorkScript/puppet-lastpass"
 github "diffmerge", "0.0.1", :repo => "DorkScript/puppet-diffmerge"
 
