@@ -16,6 +16,7 @@ class people::dorkscript{
   include alfred
   include adium
   include additemtodock
+  include xquartz
   #projects
 
   #Sane Defaults
