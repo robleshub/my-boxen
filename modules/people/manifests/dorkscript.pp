@@ -19,6 +19,11 @@ class people::dorkscript{
   include xquartz
   include lastpass
   include diffmerge
+
+  class { 'intellij':
+    edition => 'community'
+  }
+
   #projects
 
   #Sane Defaults

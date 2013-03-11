@@ -54,4 +54,5 @@ github "additemtodock", "1.0.0", :repo => "DorkScript/puppet-additemtodock"
 github "adium", "1.0.1"
 github "lastpass", "0.0.2", :repo => "DorkScript/puppet-lastpass"
 github "diffmerge", "0.0.5", :repo => "DorkScript/puppet-diffmerge"
+github "intellij", "1.1.2"
 
