@@ -19,6 +19,7 @@ class people::dorkscript{
   include xquartz
   include lastpass
   include diffmerge
+  include wget
 
   class { 'intellij':
     edition => 'community'
@@ -53,7 +54,6 @@ class people::dorkscript{
     ],
     packages => {
       brew   => [
-        'wget',
         'tmux'
       ]
     }
