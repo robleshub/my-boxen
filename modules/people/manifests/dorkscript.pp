@@ -48,8 +48,8 @@ class people::dorkscript{
     ],
     dotfiles => [
       'gitconfig',
-      #'janus/solarized',
-      #'janus/jellybeans',
+      'janus/solarized',
+      'janus/jellybeans',
       'vimrc.after',
     ],
     packages => {
