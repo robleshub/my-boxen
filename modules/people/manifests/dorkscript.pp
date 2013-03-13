@@ -10,7 +10,7 @@ class people::dorkscript{
   include colloquy
   #include python
   include chrome
-  include firefox
+  #include firefox
   include dropbox
   include java
   include alfred
