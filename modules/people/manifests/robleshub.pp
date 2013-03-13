@@ -61,7 +61,7 @@ class people::robleshub{
   }
 
   #This should be a shell script
-  -> people::dorkscript::dotfile::link { $env['dotfiles']:
+  -> people::robleshub::dotfile::link { $env['dotfiles']:
     source_dir => $env['directories']['dotfiles'],
     dest_dir   => $env['directories']['home'],
   }

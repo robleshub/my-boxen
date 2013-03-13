@@ -1,32 +1,7 @@
 GITHUBTARBALL
-  remote: DorkScript/puppet-additemtodock
-  specs:
-    additemtodock (1.0.0)
-
-GITHUBTARBALL
-  remote: DorkScript/puppet-diffmerge
-  specs:
-    diffmerge (0.0.5)
-
-GITHUBTARBALL
-  remote: DorkScript/puppet-lastpass
-  specs:
-    lastpass (0.0.2)
-
-GITHUBTARBALL
-  remote: DorkScript/puppet-xquartz
-  specs:
-    xquartz (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-alfred
-  specs:
-    alfred (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -34,24 +9,9 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-colloquy
-  specs:
-    colloquy (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -74,19 +34,9 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-intellij
-  specs:
-    intellij (1.1.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-java
-  specs:
-    java (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -109,21 +59,6 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-pkgconfig
-  specs:
-    pkgconfig (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-postgresql
-  specs:
-    postgresql (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-python
-  specs:
-    python (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
@@ -137,26 +72,6 @@ GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sysctl
-  specs:
-    sysctl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vlc
-  specs:
-    vlc (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -174,40 +89,22 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
-  additemtodock (= 1.0.0)
   adium (= 1.0.1)
-  alfred (= 1.0.1)
   boxen (= 1.2.0)
-  chrome (= 1.1.0)
-  colloquy (= 1.0.0)
-  diffmerge (= 0.0.5)
   dnsmasq (= 1.0.0)
-  dropbox (= 1.0.0)
-  gcc (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
   homebrew (= 1.1.0)
   hub (= 1.0.0)
   inifile (= 0.9.0)
-  intellij (= 1.1.2)
   iterm2 (= 1.0.1)
-  java (= 1.0.6)
-  lastpass (= 0.0.2)
   macvim (= 1.0.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
-  pkgconfig (= 1.0.0)
-  postgresql (= 1.0.0)
-  python (= 1.1.1)
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
-  sysctl (= 1.0.0)
-  vagrant (= 1.0.0)
-  virtualbox (= 1.0.1)
-  vlc (= 1.0.0)
   wget (= 1.0.0)
-  xquartz (= 1.0.1)
 
