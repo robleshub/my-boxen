@@ -20,6 +20,7 @@ class people::dorkscript{
   include lastpass
   include diffmerge
   include wget
+  include postgresql
 
   class { 'intellij':
     edition => 'community'
@@ -31,7 +32,7 @@ class people::dorkscript{
   Boxen::Osx_defaults {
     user => $::luser,
   }
-  
+
   $env = {
     apps_dir => '/Applications',
     directories => {
